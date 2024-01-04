@@ -1,12 +1,14 @@
 #include "libOne.h"
+#include "Game.h"
 
 void gmain(void)
 {
-	window(1920, 1080, full);
-	
-	while (notQuit)
+	Game game;
+	bool success = game.Initialize();
+	if (success)
 	{
-		clear(155);
+		game.RunLoop();
 	}
+	game.Shutdown();
 }
 
