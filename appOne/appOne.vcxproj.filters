@@ -5,6 +5,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{5658a75e-9ed6-4264-a497-df90b631359d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{cdf420d9-3e0b-4e95-b211-5f3bac2cf7d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc">
@@ -17,6 +23,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gmain.cpp" />
+    <ClCompile Include="gmain.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
