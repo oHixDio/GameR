@@ -29,9 +29,15 @@
     <ClCompile Include="Game.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
